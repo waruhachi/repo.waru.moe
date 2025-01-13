@@ -1,0 +1,104 @@
+{
+	"minVersion": "0.1",
+	"class": "DepictionTabView",
+	"tintColor": "#CBA0DD",
+	"headerImage": "https://repo.waru.moe/images/header.png",
+	"tabs": [
+		{
+			"tabname": "Details",
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": true,
+					"title": "Description"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Save the current wallpaper to the camera roll. Works on the lock screen and home screen"
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "Features"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Triple tap on the home or lock screen to save the current wallpaper"
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "Known Issues"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Needs to be tested on iOS 15, 16, and 17"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "Information"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"title": "Developer",
+					"text": "waruhachi"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"title": "Version",
+					"text": "1.0.0"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"title": "Compatibility",
+					"text": "iOS 15 - 17"
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				},
+				{
+					"class": "DepictionStackView",
+					"views": [
+						{
+							"class": "DepictionTableButtonView",
+							"title": "Source Code",
+							"action": "https://github.com/waruhachi/kabegami",
+							"openExternal": true
+						}
+					]
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				}
+			]
+		},
+		{
+			"tabname": "Change Log",
+			"class": "DepictionStackView",
+			"tintColor": "#CBA0DD",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "1.0.0"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Initial release"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,18 @@
+Origin: waruhachi's Repo
+Label: waruhachi's Repo
+Suite: stable
+Version: 1.0
+Codename: waru
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: My jailbreak repo
+MD5Sum:
+ 02ed020a238a533ac43723e0e7ce2ce6 6327 Packages
+ fa31546972b64e2cfd3f8ded61667c44 1971 Packages.bz2
+ 4863354c28e71712ad3cdc857bc62e10 1788 Packages.gz
+ d9e36734cfbdcc93ea0c3daad1835c68 1688 Packages.zst
+SHA256:
+ 2237bd00d7983de7b8627edba5dec0af39350919a08b46cdb9411f47a2e620c3 6327 Packages
+ 0544a389ac22451935a6a80868692d6e962372a0d250c579979ef459fdbd81dd 1971 Packages.bz2
+ f62930034f1a709aeaed83c1ce52b4aa8a106f8f2dfe9e1dc6f392e831b3955d 1788 Packages.gz
+ 68d2d74d649eb8a775f1bf1d26648909f0ee27c3111396e5e78ff96dca13535a 1688 Packages.zst

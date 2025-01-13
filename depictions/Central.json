@@ -1,0 +1,114 @@
+{
+	"minVersion": "0.1",
+	"class": "DepictionTabView",
+	"tintColor": "#CBA0DD",
+	"headerImage": "https://repo.waru.moe/images/header.png",
+	"tabs": [
+		{
+			"tabname": "Details",
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": true,
+					"title": "Description"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Center the last row of icons on your home screen"
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "Features"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Center the last row of icons on your home screen, folders, and App Library"
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "Preferences"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- **Tweak Enabled** Self-explanatory\n - **Change Folder Layout** Center the last row of icons on folders\n - **Change App Library Layout** Center the last row of icons on App Library extended view"
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "Known Issues"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Does not work on iOS 18"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "Information"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"title": "Developer",
+					"text": "waruhachi"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"title": "Version",
+					"text": "1.1.3"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"title": "Compatibility",
+					"text": "iOS 13 - 17"
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				},
+				{
+					"class": "DepictionStackView",
+					"views": [
+						{
+							"class": "DepictionTableButtonView",
+							"title": "Source Code",
+							"action": "https://github.com/waruhachi/<repo>",
+							"openExternal": true
+						}
+					]
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				}
+			]
+		},
+		{
+			"tabname": "Change Log",
+			"class": "DepictionStackView",
+			"tintColor": "#CBA0DD",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "1.1.3"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Added iOS 16 and 17 support"
+				}
+			]
+		}
+	]
+}

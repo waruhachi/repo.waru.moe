@@ -1,0 +1,8 @@
+Origin: waruhachi's Repo
+Label: waruhachi's Repo
+Suite: stable
+Version: 1.0
+Codename: waru
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: My jailbreak repo

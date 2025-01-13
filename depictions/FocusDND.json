@@ -1,0 +1,104 @@
+{
+	"minVersion": "0.1",
+	"class": "DepictionTabView",
+	"tintColor": "#CBA0DD",
+	"headerImage": "https://repo.waru.moe/images/header.png",
+	"tabs": [
+		{
+			"tabname": "Details",
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": true,
+					"title": "Description"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Change the Focus module to look like the Do Not Disturb module from iOS 14"
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "Features"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Change the focus module to be 1x1 module slot\n- Remove the focus title and state label\n - Remove the circle background of the focus button"
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "Known Issues"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- The circle background of the focus button is not yet removed"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "Information"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"title": "Developer",
+					"text": "waruhachi"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"title": "Version",
+					"text": "1.0.0"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"title": "Compatibility",
+					"text": "iOS 15 - 17"
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				},
+				{
+					"class": "DepictionStackView",
+					"views": [
+						{
+							"class": "DepictionTableButtonView",
+							"title": "Source Code",
+							"action": "https://github.com/waruhachi/FocusDND",
+							"openExternal": true
+						}
+					]
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				}
+			]
+		},
+		{
+			"tabname": "Change Log",
+			"class": "DepictionStackView",
+			"tintColor": "#CBA0DD",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "1.0.0"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Initial release"
+				}
+			]
+		}
+	]
+}
